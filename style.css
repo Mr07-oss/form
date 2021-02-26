@@ -1,0 +1,117 @@
+body{
+  margin-bottom:0px;
+  padding: 0px;
+  background: url('aset/a.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  
+
+}
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  top:50%;
+  left:50%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 70px;
+  transform: translate(-50%,-50%);
+  backdrop-filter: blur(2px);
+  
+
+}
+
+.user, .pass
+{
+  
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-align: center;
+  
+}
+
+
+h1{
+  margin-top: 0px;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.p{
+  margin-bottom:0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+input
+{
+  width:100%;
+  margin-bottom : 20px;
+  
+}
+
+.b{
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px; 
+  background-color: #1c8adb;
+}
+
+.b:hover{
+ /* cursor: pointer;*/
+  background: #E33056;
+  color: #fff;
+}
+
+.b:hover{
+  cursor: pointer;
+  background: #E33056;
+  color: #fff;
+}
+
+.avt{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  position: absolute;
+  top: -70px;
+  right: 86px;
+  
+  
+  /*left: calc (50% - 50px);*/
+}
+
+.p{
+    color: #1c8adb;
+
+    
+    padding-left: 30px;
+    font-size: 15px;
+    
+}
+
+.p:hover{
+    color: #E33056;
+    cursor: pointer;
+
+}
+
+.p:hover{
+    color: #E33056;
+    
+
+}
